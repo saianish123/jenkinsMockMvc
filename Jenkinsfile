@@ -26,12 +26,12 @@ jacoco()
 }
   stage('Build Docker Image') {
 steps {
-
+echo 'Building Docker Image'
 }
 }
   stage('Push Docker Image To Docker Hub') {
 steps {
-
+echo 'Pushing Docker Image'
 }
 }
 }
